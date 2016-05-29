@@ -15,6 +15,11 @@
 		CF3BE3531CFB0597003DE045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3BE3511CFB0597003DE045 /* LaunchScreen.storyboard */; };
 		CF3BE35E1CFB0597003DE045 /* JSCollectionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE35D1CFB0597003DE045 /* JSCollectionViewLayoutTests.m */; };
 		CF3BE3691CFB0597003DE045 /* JSCollectionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE3681CFB0597003DE045 /* JSCollectionViewLayoutUITests.m */; };
+		CF3BE3791CFB062D003DE045 /* JSImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE3771CFB062D003DE045 /* JSImageCell.m */; };
+		CF3BE37A1CFB062D003DE045 /* JSImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3BE3781CFB062D003DE045 /* JSImageCell.xib */; };
+		CF3BE37D1CFB06D1003DE045 /* JSCircleCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE37C1CFB06D1003DE045 /* JSCircleCollectionViewLayout.m */; };
+		CF3BE3801CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE37F1CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.m */; };
+		CF3BE3831CFB0899003DE045 /* JSGidCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3BE3821CFB0899003DE045 /* JSGidCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		CF3BE3641CFB0597003DE045 /* JSCollectionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCollectionViewLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3BE3681CFB0597003DE045 /* JSCollectionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCollectionViewLayoutUITests.m; sourceTree = "<group>"; };
 		CF3BE36A1CFB0597003DE045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3BE3761CFB062D003DE045 /* JSImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSImageCell.h; sourceTree = "<group>"; };
+		CF3BE3771CFB062D003DE045 /* JSImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImageCell.m; sourceTree = "<group>"; };
+		CF3BE3781CFB062D003DE045 /* JSImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSImageCell.xib; sourceTree = "<group>"; };
+		CF3BE37B1CFB06D1003DE045 /* JSCircleCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCircleCollectionViewLayout.h; sourceTree = "<group>"; };
+		CF3BE37C1CFB06D1003DE045 /* JSCircleCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCircleCollectionViewLayout.m; sourceTree = "<group>"; };
+		CF3BE37E1CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLinearCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		CF3BE37F1CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLinearCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		CF3BE3811CFB0899003DE045 /* JSGidCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGidCollectionViewLayout.h; sourceTree = "<group>"; };
+		CF3BE3821CFB0899003DE045 /* JSGidCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGidCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				CF3BE3471CFB0597003DE045 /* AppDelegate.m */,
 				CF3BE3491CFB0597003DE045 /* ViewController.h */,
 				CF3BE34A1CFB0597003DE045 /* ViewController.m */,
+				CF3BE3761CFB062D003DE045 /* JSImageCell.h */,
+				CF3BE3771CFB062D003DE045 /* JSImageCell.m */,
+				CF3BE3781CFB062D003DE045 /* JSImageCell.xib */,
+				CF3BE3811CFB0899003DE045 /* JSGidCollectionViewLayout.h */,
+				CF3BE3821CFB0899003DE045 /* JSGidCollectionViewLayout.m */,
+				CF3BE37B1CFB06D1003DE045 /* JSCircleCollectionViewLayout.h */,
+				CF3BE37C1CFB06D1003DE045 /* JSCircleCollectionViewLayout.m */,
+				CF3BE37E1CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.h */,
+				CF3BE37F1CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.m */,
 				CF3BE34C1CFB0597003DE045 /* Main.storyboard */,
 				CF3BE34F1CFB0597003DE045 /* Assets.xcassets */,
 				CF3BE3511CFB0597003DE045 /* LaunchScreen.storyboard */,
@@ -246,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3BE37A1CFB062D003DE045 /* JSImageCell.xib in Resources */,
 				CF3BE3531CFB0597003DE045 /* LaunchScreen.storyboard in Resources */,
 				CF3BE3501CFB0597003DE045 /* Assets.xcassets in Resources */,
 				CF3BE34E1CFB0597003DE045 /* Main.storyboard in Resources */,
@@ -273,6 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3BE3801CFB06FE003DE045 /* JSLinearCollectionViewFlowLayout.m in Sources */,
+				CF3BE3791CFB062D003DE045 /* JSImageCell.m in Sources */,
+				CF3BE3831CFB0899003DE045 /* JSGidCollectionViewLayout.m in Sources */,
+				CF3BE37D1CFB06D1003DE045 /* JSCircleCollectionViewLayout.m in Sources */,
 				CF3BE34B1CFB0597003DE045 /* ViewController.m in Sources */,
 				CF3BE3481CFB0597003DE045 /* AppDelegate.m in Sources */,
 				CF3BE3451CFB0597003DE045 /* main.m in Sources */,
